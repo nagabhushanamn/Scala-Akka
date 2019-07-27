@@ -1,0 +1,6 @@
+{
+  "trainer": "Nag",
+  "akka": {
+    "loglevel": "DEBUG"
+  }
+}

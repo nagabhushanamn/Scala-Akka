@@ -1,0 +1,26 @@
+
+---------------------
+FP principles
+---------------------
+
+
+ #1. Function as value/object  i.e first class citizens/elements
+
+    Adv : - clean & concise code
+
+ #2. parameter of function can be other function
+
+    Adv : - by composing multiple small functions, we can build complex algorithms
+          - can re-use same function on multiple scenarios
+
+          i.e with Higher-Order-Functions , we can acheive Higher-Order-Programming , => function composition
+
+
+  #3. return value of function can another function
+
+    Adv :
+
+            - from multiple , we can make function based on need
+
+  ------------------------------------------------------------------
+

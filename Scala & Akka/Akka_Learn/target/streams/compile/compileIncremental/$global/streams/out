@@ -1,0 +1,189 @@
+[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 8 sources: invalidated sources (8) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 8 Scala sources to /Users/nag-training/Desktop/Tech/code/Scala & Akka/Akka_Learn/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.0[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.13' for Scala 2.13.0. Compiling...[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating plain compiler interface for 2.13.0.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > Arguments: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	-nowarn[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_6496fe5d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes:/Users/nag-training/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_89b4cbb8/jars/org.scala-sbt/compiler-interface/compiler-interface-1.2.5.jar:/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_89b4cbb8/jars/org.scala-sbt/util-interface/util-interface-1.2.2.jar:/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_89b4cbb8/srcs/org.scala-sbt/compiler-bridge_2.13/compiler-bridge_2.13-1.2.5-sources.jar:/Users/nag-training/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.13.0.jar:/Users/nag-training/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.13.0.jar:/Users/nag-training/.ivy2/cache/jline/jline/jars/jline-2.14.6.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/API.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/Analyzer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/CallbackGlobal.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/ClassName.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/Command.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/Compat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/CompilerInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/ConsoleInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/DelegatingReporter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/Dependency.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/ExtractAPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/ExtractUsedNames.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/GlobalHelpers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/InteractiveConsoleFactory.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/InteractiveConsoleHelper.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/InteractiveConsoleInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/InteractiveConsoleResponse.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/JavaUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/LocalToNonLocalClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/LocateClassFile.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/Log.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/Message.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_6/96hmlfj13gng1bbts65g7mkr0000gq/T/sbt_f0394125/xsbt/ScaladocInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m      [0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 13.592s.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 2106fcca for Scala compiler version 2.13.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes:/Users/nag-training/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/nag-training/Desktop/Tech/code/Scala & Akka/Akka_Learn/target/scala-2.13/classes:/Users/nag-training/.ivy2/cache/com.typesafe.akka/akka-actor_2.13/jars/akka-actor_2.13-2.5.23.jar:/Users/nag-training/.ivy2/cache/com.typesafe/config/bundles/config-1.3.3.jar:/Users/nag-training/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.13/jars/scala-java8-compat_2.13-0.9.0.jar:/Users/nag-training/.ivy2/cache/com.typesafe.akka/akka-testkit_2.13/jars/akka-testkit_2.13-2.5.23.jar:/Users/nag-training/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-3.0.8.jar:/Users/nag-training/.ivy2/cache/org.scalactic/scalactic_2.11/bundles/scalactic_2.11-3.0.8.jar:/Users/nag-training/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.13.0.jar:/Users/nag-training/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.2.0.jar[0m
+[0m[[0m[31merror[0m] [0m[0m## Exception when compiling 8 sources to /Users/nag-training/Desktop/Tech/code/Scala & Akka/Akka_Learn/target/scala-2.13/classes[0m
+[0m[[0m[31merror[0m] [0m[0mscala.Predef$.wrapRefArray([Ljava/lang/Object;)Lscala/collection/mutable/WrappedArray;[0m
+[0m[[0m[31merror[0m] [0m[0morg.scalactic.source.PositionMacro$.genPosition(PositionMacro.scala:56)[0m
+[0m[[0m[31merror[0m] [0m[0msun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0msun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
+[0m[[0m[31merror[0m] [0m[0msun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.reflect.Method.invoke(Method.java:498)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.macros.runtime.JavaReflectionRuntimes$JavaReflectionResolvers.$anonfun$resolveJavaReflectionRuntime$4(JavaReflectionRuntimes.scala:46)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Macros.macroExpandWithRuntime(Macros.scala:754)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Macros.macroExpandWithRuntime$(Macros.scala:730)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$$anon$5.macroExpandWithRuntime(Global.scala:482)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Macros$MacroExpander.$anonfun$expand$1(Macros.scala:560)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global.withInfoLevel(Global.scala:225)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Macros$MacroExpander.expand(Macros.scala:553)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Macros$MacroExpander.apply(Macros.scala:540)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Macros.standardMacroExpand(Macros.scala:715)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Macros.standardMacroExpand$(Macros.scala:713)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$$anon$5.standardMacroExpand(Global.scala:482)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.AnalyzerPlugins$$anon$12.default(AnalyzerPlugins.scala:439)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.AnalyzerPlugins$$anon$12.default(AnalyzerPlugins.scala:436)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.AnalyzerPlugins.invoke(AnalyzerPlugins.scala:408)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.AnalyzerPlugins.pluginsMacroExpand(AnalyzerPlugins.scala:436)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.AnalyzerPlugins.pluginsMacroExpand$(AnalyzerPlugins.scala:436)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$$anon$5.pluginsMacroExpand(Global.scala:482)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Macros.macroExpand(Macros.scala:704)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Macros.macroExpand$(Macros.scala:697)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$$anon$5.macroExpand(Global.scala:482)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.vanillaAdapt$1(Typers.scala:1213)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.adapt(Typers.scala:1278)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.adapt(Typers.scala:1251)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits$ImplicitSearch.typedImplicit1(Implicits.scala:864)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits$ImplicitSearch.typedImplicit0(Implicits.scala:801)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits$ImplicitSearch.scala$tools$nsc$typechecker$Implicits$ImplicitSearch$$typedImplicit(Implicits.scala:621)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.rankImplicits(Implicits.scala:1129)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.findBest(Implicits.scala:1164)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits$ImplicitSearch.searchImplicit(Implicits.scala:1221)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits$ImplicitSearch.bestImplicit(Implicits.scala:1646)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits.inferImplicit1(Implicits.scala:113)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits.inferImplicit(Implicits.scala:92)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits.inferImplicit$(Implicits.scala:89)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$$anon$5.inferImplicit(Global.scala:482)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits.inferImplicitFor(Implicits.scala:47)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits.inferImplicitFor$(Implicits.scala:46)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$$anon$5.inferImplicitFor(Global.scala:482)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.applyImplicitArgs(Typers.scala:271)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits$ImplicitSearch.typedImplicit1(Implicits.scala:849)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits$ImplicitSearch.typedImplicit0(Implicits.scala:801)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits$ImplicitSearch.scala$tools$nsc$typechecker$Implicits$ImplicitSearch$$typedImplicit(Implicits.scala:621)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.rankImplicits(Implicits.scala:1129)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.findBest(Implicits.scala:1164)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits$ImplicitSearch.searchImplicit(Implicits.scala:1221)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits$ImplicitSearch.bestImplicit(Implicits.scala:1620)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits.inferImplicit1(Implicits.scala:113)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits.inferImplicit(Implicits.scala:92)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits.inferImplicit$(Implicits.scala:89)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$$anon$5.inferImplicit(Global.scala:482)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits.inferImplicitView(Implicits.scala:51)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Implicits.inferImplicitView$(Implicits.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$$anon$5.inferImplicitView(Global.scala:482)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.inferView(Typers.scala:337)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.adaptToMember(Typers.scala:1339)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.$anonfun$adaptToMemberWithArgs$7(Typers.scala:1389)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:728)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.adaptToMemberWithArgs(Typers.scala:1389)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedSelect$1(Typers.scala:5115)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedSelectOrSuperCall$1(Typers.scala:5266)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5822)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5867)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$40(Typers.scala:4929)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:715)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4931)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4959)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5821)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5867)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5931)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3396)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3396)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2050)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1880)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5775)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5867)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5931)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3396)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3396)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5475)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5778)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5867)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:115)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:451)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.run(Analyzer.scala:104)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1510)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$Run.compileUnits(Global.scala:1494)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$Run.compileSources(Global.scala:1486)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$Run.compile(Global.scala:1615)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.CachedCompiler0.run(CompilerInterface.scala:130)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.CachedCompiler0.run(CompilerInterface.scala:105)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.CompilerInterface.run(CompilerInterface.scala:31)[0m
+[0m[[0m[31merror[0m] [0m[0msun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0msun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
+[0m[[0m[31merror[0m] [0m[0msun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.reflect.Method.invoke(Method.java:498)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.AnalyzingCompiler.call(AnalyzingCompiler.scala:237)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:111)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:90)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$3(MixedAnalyzingCompiler.scala:82)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:133)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:73)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:307)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:307)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.doCompile(Incremental.scala:106)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.$anonfun$compile$4(Incremental.scala:87)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCommon.recompileClasses(IncrementalCommon.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:63)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:89)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:134)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.compile(Incremental.scala:80)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompile$.apply(Compile.scala:67)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:311)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:159)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:238)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:69)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:1549)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:1523)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.Function1.$anonfun$compose$1(Function1.scala:44)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:40)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.std.Transform$$anon$4.work(System.scala:67)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Execute.$anonfun$submit$2(Execute.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Execute.work(Execute.scala:278)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Execute.$anonfun$submit$1(Execute.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.CompletionService$$anon$2.call(CompletionService.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.Thread.run(Thread.java:748)[0m
+[0m[[0m[31merror[0m] [0m[0m           [0m
